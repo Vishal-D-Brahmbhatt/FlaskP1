@@ -1,4 +1,99 @@
 {% extends "base.html" %}
 {% block content %}
-    Page 2
+    <h1>DOCKER</h1>
+    <div class="container">
+        <p class="contentPages"><b>Docker is a free and open platform for building, delivering, and operating apps.
+            Docker
+            allows you to decouple your apps from your infrastructure, allowing you to swiftly release software. You can
+            manage your infrastructure the same way you control your apps with Docker. You may drastically minimize the
+            time between developing code and executing it in production by leveraging Docker's approaches for shipping,
+            testing, and deploying code rapidly.</b></p>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">DOCKER CONTAINER</h6>A container
+                    is a standard software unit that encapsulates code and all of its dependencies so that the program
+                    may be moved from one computer environment to another fast and reliably. A Docker container image is
+                    a small, independent software package that contains everything needed to execute a program,
+                    including code, runtime, system tools, system libraries, and settings.
+                </div>
+                <div class="col-6 col-sm-3"><img src="static\images\dockercontainer.png" class="img-thumbnail"></div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">DOCKER IMAGES</h6>A Docker image
+                    is a file that a Docker container uses to run programs. Docker images, like a template, serve as a
+                    collection of instructions for constructing a Docker container. When utilizing Docker, Docker images
+                    also serve as a starting point. In virtual machine (VM) settings, an image is similar to a snapshot.
+                </div>
+                <div class="col-6 col-sm-3"><img src="static\images\dockerimages.jpg" class="img-thumbnail"></div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">Staring Application using
+                    Terminal</h6>To start the application directly from the terminal we can use the command "<u>docker
+                    run
+                    -dp</u>" to do so. And if the compose file is present we can use the command "<u>docker compose up
+                    --build</u>" to do so.
+                </div>
+                <div class="col-6 col-sm-3"><img src="static\images\dockerterminal.png" class="img-thumbnail"></div>
+
+            </div>
+
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">DOCKER HUB LINK</h6><a
+                        href="https://hub.docker.com/repository/docker/vishalb879/project1" target="_blank">Click
+                    here</a> to visit the docker hub repository.
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">DOCKER COMMANDS</h6>
+                    <div class="col-sm-8 contentPages">
+                        <p>
+                        <h3 class="contentPagesHeader">docker run:</h3>This command is used to run and build an image as
+                        a container.
+                        </p>
+                        <p>
+                        <h3 class="contentPagesHeader">docker build:</h3>This command is used to build the container
+                        image.
+                        </p>
+                        <p>
+                        <h3 class="contentPagesHeader">docker ps:</h3>This command is used to get the ID of the
+                        container.
+                        </p>
+                        <p>
+                        <h3 class="contentPagesHeader">docker stop:</h3>This command is used to stop the container.
+                        </p>
+                        <p>
+                        <h3 class="contentPagesHeader">docker rm:</h3>This command is used to remove the container once
+                        the container is stopped.
+                        </p>
+                        <p>
+                        <h3 class="contentPagesHeader">docker push:</h3>This command is used to push the container to
+                        the docker hub repository.
+                        </p>
+                        <p>
+                        <h3 class="contentPagesHeader">docker tag:</h3>This command is used to give the image a tag
+                        name.
+                        </p>
+                        <p>
+                        <h3 class="contentPagesHeader">docker-compose:</h3>This command is compose and start the
+                        application.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}

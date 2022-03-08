@@ -1,4 +1,69 @@
 {% extends "base.html" %}
 {% block content %}
-    Page 4
+    <h1>CI/CD</h1>
+    <div class="container">
+        <p class="contentPages"><b>CI/CD is a way of delivering apps to clients on a regular basis by incorporating
+            automation into the phases of app development. Continuous integration, continuous delivery, and continuous
+            deployment are the three key principles associated with CI/CD. CI/CD is a solution to the issues that new
+            code integration might bring for development and operations teams.</b></p>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">GITHUB ACTIONS</h6>GitHub
+                    Actions is a CI/CD platform that allows you to automate your build, test, and deployment pipelines.
+                    You may set up procedures to build and test each pull request that comes into your repository, or
+                    you can deploy merged pull requests to production.GitHub Actions extends beyond DevOps by allowing
+                    you to perform processes when additional events occur in your repository. You may, for example,
+                    establish a workflow that adds the proper labels whenever someone files a new issue in your
+                    repository.GitHub provides virtual machines for Linux, Windows, and macOS, or you may host your own
+                    self-hosted runners in your own data center or cloud infrastructure.
+
+                </div>
+                <div class="col-6 col-sm-3"><img src="static\images\cicd1.jpg" class="img-thumbnail"></div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-3 contentPages"><h6 class="contentPagesHeader">WORKFLOWS</h6>A workflow is a
+                    programmable automated procedure that does one or more jobs. Workflows are defined by a YAML file
+                    that is checked into your repository and will execute when prompted by an event in your repository,
+                    manually, or on a predefined schedule.
+                </div>
+                <div class="col-6 col-sm-3 contentPages"><h6 class="contentPagesHeader">ACTIONS</h6>An action is a
+                    GitHub Actions platform custom application that performs a sophisticated but regularly repeated
+                    activity. To assist limit the amount of repeated code in your workflow files, use an action. An
+                    action can get your git repository from GitHub, install the necessary toolchain for your build
+                    environment, or configure your cloud provider credentials.
+                </div>
+                <div class="col-6 col-sm-3 contentPages"><h6 class="contentPagesHeader">EVENTS</h6>An event is a
+                    specific behavior in a repository that initiates the execution of a process. When someone files a
+                    pull request, opens an issue, or pushes a change to a repository, for example, activity might come
+                    from GitHub. You may also run a process on a schedule, over a REST API, or manually.
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">Continuous deployment</h6>
+                        Continuous deployment (CD) is the technique of publishing and deploying software updates using
+                        automation. The code is automatically created and tested before deployment as part of the
+                        standard CD process.
+                    </div>
+                    <div class="col-6 col-sm-3"><img src="static\images\cicd2.jpg" class="img-thumbnail"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">About custom actions</h6>
+                        You may write custom code that interacts with your repository in any way you want, including
+                        connecting with GitHub's APIs and any publicly accessible third-party API. An action, for
+                        example, can publish npm modules, send SMS warnings when critical problems are generated, or
+                        deploy production-ready code.
+                    </div>
+                    <div class="col-6 col-sm-3"><img src="static\images\cicd3.jpg" class="img-thumbnail"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}

@@ -1,3 +1,10 @@
 body {
 font-size: 200%;
 }
+.contentPages{
+    font-size: medium;
+}
+
+.contentPagesHeader{
+    font-size: large;
+}
