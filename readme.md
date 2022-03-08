@@ -38,8 +38,8 @@ app/dyno.
 11. Push code to your local repo and check for any errors and fix any errors that appear when the workflow is running. You can check the workflow in the
     actions.
 
-## Running Locally
 
+##  Locally Running
 1. To Build with docker compose:
    docker compose up --build
 2. To run tests, Lint, and Coverage report use this command: pytest --pylint --cov
