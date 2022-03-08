@@ -1,13 +1,13 @@
 # Project Setup
 
-[![Production Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml)
+[![Production Workflow](https://github.com/Vishal-D-Brahmbhatt/FlaskP1/actions/workflows/prod.yml/badge.svg)](https://github.com/Vishal-D-Brahmbhatt/FlaskP1/actions/workflows/prod.yml)
 
-* [Production Deployment](https://kwilliam-prod.herokuapp.com/)
+* [Production Deployment](https://vishalproject1prod.herokuapp.com/)
 
 
-[![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
+[![Development Workflow](https://github.com/Vishal-D-Brahmbhatt/FlaskP1/actions/workflows/dev.yml/badge.svg)](https://github.com/Vishal-D-Brahmbhatt/FlaskP1/actions/workflows/dev.yml)
 
-* [Developmental Deployment](https://kwilliam-dev.herokuapp.com/)
+* [Developmental Deployment](https://vishalproject1dev.herokuapp.com/)
 
 ## Setting up CI/CD
 
@@ -38,8 +38,8 @@ app/dyno.
 11. Push code to your local repo and check for any errors and fix any errors that appear when the workflow is running. You can check the workflow in the
     actions.
 
-## Running Locally
 
+##  Locally Running
 1. To Build with docker compose:
    docker compose up --build
 2. To run tests, Lint, and Coverage report use this command: pytest --pylint --cov
