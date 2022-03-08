@@ -1,4 +1,71 @@
 {% extends "base.html" %}
 {% block content %}
-    Page 1
+    <h1>GIT</h1>
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-4"><img src="static\images\gitmerge.jpeg" class="img-thumbnail"></div>
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">GIT MERGE</h6>Git's way of
+                    putting a forked history back together is called merging. The git merge command allows you to
+                    combine the separate development lines created by git branch into a single branch. It's worth noting
+                    that the commands listed below all merge into the current branch. The merging will be reflected in
+                    the current branch, but the target branch will be unaffected.
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-4"><img src="static\images\gitbranch1.svg" class="img-thumbnail"></div>
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">GIT BRANCH</h6>Git branches
+                    provide as a shortcut to a snapshot of your modifications. You create a new branch to encapsulate
+                    your changes when you wish to add a new feature or solve a bug, no matter how big or tiny. This
+                    makes it more difficult for unstable code to be merged into the main code base, and it also allows
+                    you to clean up the history of your future branch before merging it into the main branch.
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-4 contentPages"><h6 class="contentPagesHeader">GIT TAGS</h6>Tags are a type of
+                    remark that refers
+                    to a specific moment in Git's history. A tag is similar to a non-changing branch. Tags, unlike
+                    branches, have no history of commits once they are formed. Visit the git branch page for additional
+                    information about branches. This page will go through the many types of tags, how to create tags,
+                    how to list all tags, how to delete tags, how to share tags, and more.
+                </div>
+                <div class="col-6 col-sm-4 contentPages"><h6 class="contentPagesHeader">GIT REPOSITORY</h6>A Git
+                    repository is a virtual location where you may save your project. It allows you to keep several
+                    versions of your code so you can go back to whenever you need them.
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">GIT COMMIT</h6>The git commit
+                    command takes a snapshot of the current state of the project's modifications. Committed snapshots
+                    are "safe" versions of a project that Git will never change unless you explicitly tell it to. The
+                    git add command is used to promote or'stage' changes to the project that will be saved in a commit
+                    before running git commit. Git commit and git add are two of the most commonly used commands.
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="static\images\gitcommit.svg" class="rounded float-start" alt="...">
+                </div>
+                <div class="col-sm-4">
+                    <img src="static\images\gittags.svg" class="rounded float" alt="...">
+                </div>
+                <div class="col-sm-4">
+                    <img src="static\images\gitrepo.svg" class="rounded float" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
