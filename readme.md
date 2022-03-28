@@ -2,12 +2,12 @@
 
 [![Production Workflow](https://github.com/Vishal-D-Brahmbhatt/FlaskP1/actions/workflows/prod.yml/badge.svg)](https://github.com/Vishal-D-Brahmbhatt/FlaskP1/actions/workflows/prod.yml)
 
-* [Production Deployment](https://vishalproject1prod.herokuapp.com/)
+* [Production Deployment](https://vishalproject2prod.herokuapp.com/)
 
 
 [![Development Workflow](https://github.com/Vishal-D-Brahmbhatt/FlaskP1/actions/workflows/dev.yml/badge.svg)](https://github.com/Vishal-D-Brahmbhatt/FlaskP1/actions/workflows/dev.yml)
 
-* [Developmental Deployment](https://vishalproject1dev.herokuapp.com/)
+* [Developmental Deployment](https://vishalproject2dev.herokuapp.com/)
 
 ## Setting up CI/CD
 

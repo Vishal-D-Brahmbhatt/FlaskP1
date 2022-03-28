@@ -22,31 +22,40 @@
             <!-- As a link -->
             <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="/">PROJECT 1</a>
+                    <a class="navbar-brand" href="/">PROJECT 2</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav fs-6">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="{{ url_for('simple_pages.show', page="index")}}">Home</a>
-                            </li>
-{#                            <li class="nav-item">#}
-{#                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="about")}}">About</a>#}
-{#                            </li>#}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page1")}}">GIT</a>
+                                <a class="nav-link" aria-current="page" href="{{ url_for('simple_pages.show', page="index") }}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page2")}}">DOCKER</a>
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page1") }}">GIT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page3")}}">PYTHON/FLASK</a>
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page2") }}">DOCKER</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page4")}}">CI/CD</a>
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page3") }}">PYTHON/FLASK</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page4") }}">CI/CD</a>
+                            </li>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    Project 2 Webpages
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" href="{{ url_for('simple_pages.show', page="page5") }}">OOP</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('simple_pages.show', page="page6") }}">AAA Testing</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('simple_pages.show', page="page7") }}">PYLINT</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('simple_pages.show', page="page8") }}">SOLID and DESIGN PATTERN</a></li>
+                                </ul>
+                            </div>
                         </ul>
                     </div>
                 </div>
@@ -58,8 +67,11 @@
         {% endblock %}
     </div>
     <footer>
-        Environment: {{ deployment_environment }} - Copyright: {{ year }}
-        Message: {{ mymessage }} {{ format_price(100) }}
+        <p class="smalling">
+            Environment: {{ deployment_environment }} - Copyright: {{ year }}
+            {#        Message: {{ mymessage }} {{ format_price(100) }}#}
+            {{ mymessage }}
+        </p>
     </footer>
 
 </div>
@@ -69,5 +81,16 @@
         crossorigin="anonymous"></script>
 <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function () {
+        $('a').each(function () {
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active');
+                $(this).parents('li').addClass('active');
+            }
+        });
+    });
+</script>
 </body>
 </html>
