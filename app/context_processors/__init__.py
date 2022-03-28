@@ -1,8 +1,9 @@
 from os import getenv
 import datetime
 
+
 def utility_text_processors():
-    message = "hello world"
+    message = "Vishal's Project"
 
     def deployment_environment():
         return getenv('FLASK_ENV', None)
@@ -22,5 +23,3 @@ def utility_text_processors():
         year=current_year(),
         format_price=format_price
     )
-
-

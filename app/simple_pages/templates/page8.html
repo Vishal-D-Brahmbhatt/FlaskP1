@@ -1,0 +1,275 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>SOLID PATTERN AND DESIGN PATTERN</h1>
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="text-center"><img src="static\images\SolidA.jpg" class="img-fluid"></div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-6 col-sm-6 contentPages"><h6 class="contentPagesHeader">SOLID PATTERN</h6>In software
+                    engineering, SOLID is a mnemonic summary of five design principles intended to make software designs
+                    understandable, flexible, and sustainable. Principles are part of many principles promoted by
+                    American software engineer and lecturer Robert C. Martin, first introduced in his 2000 paper Design
+                    Principles and Design Patterns.<br><br>
+                    <b>SOLID</b>
+                    stands for:
+                    <br><b>S</b> - Single-responsibility Principle.
+                    <br><b>O</b> - Open-closed Principle.
+                    <br><b>L</b> - Liskov Substitution Principle.
+                    <br><b>I</b> - Interface Segregation Principle.
+                    <br><b>D</b> - Dependency Inversion Principle
+                    <br>
+                </div>
+                <div class="col-6 col-sm-6"><img src="static\images\Solid1.jpg" class="img-fluid"></div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">SINGLE-RESPONSIBILITY
+                    PRINCIPLE</h6>The class
+                    should have only one and one reason to change, which means it should have only one activity.N-Layer
+                    Architecture is the most popular application of the Unity Act. Consider the following scenario: we
+                    want to use the REST API to represent the "Product" storage capability. We'll start with a
+                    controller, which can integrate the whole mind up to and including keeping the real thing on the
+                    website, but this will violate the One Commitment Goal.
+                    We start with the type of classroom control, following the logical flow of data. Their role is to
+                    respond to request made to a specific URL path, to process payments, URL parameters, and topics, to
+                    transfer data to service layers, and to return the stated result or error message with the
+                    appropriate status code after processing has been completed.
+
+                </div>
+                <div class="col-6 col-sm-4"><img src="static\images\Solid2.jpg" class="img-fluid"></div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">OPEN-CLOSED PRINCIPLE</h6>In
+                    theory, the class should be open to extensions but closed to change. This is especially important
+                    if the terms or conditions change frequently or may change. Adherence to the OCP will protect your
+                    code from worrying about going back. In other words, if new needs are to be addressed by the class,
+                    we do not need to change them; instead, it only needs to create its own subclass that will handle
+                    the new concept independently. Simply put, we would like to take a closer look at this using an
+                    example.
+                </div>
+                <div class="col-6 col-sm-4"><img src="static\images\Solid3.jpg" class="img-fluid"></div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">LISKOV SUBSTITUTION
+                    PRINCIPLE</h6>The idea of changing Liskov is represented by the letter L in the well-known SOLID
+                    abbreviation. The first policy statement is as follows: Methods that use basic class indicators
+                    should be able to use material from acquired classes without realizing it.
+                    At first, the idea seems simple. At first glance, it seems that it is no longer relevant when
+                    considering OOP's view of polymorphism. After all, isn’t the whole purpose of polymorphism to use
+                    abstraction without being able to implement it?
+                    However, the public emphasis on LSP is positive. This theory is actually a warning to developers
+                    that polymorphism is powerful and deceptive: in the real world, the use of polymorphism often leads
+                    to a dead conclusion, so it should be used with caution.
+                    LSP is often summarized with a counter-example of Duck Test: “If it looks like a duck, quacks like a
+                    duck, but needs batteries – you probably have the wrong abstraction”
+                </div>
+                <div class="col-6 col-sm-4"><img src="static\images\Solid4.jpg" class="img-fluid"></div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">INTERFACE SEGREGATION
+                    PRINCIPLE</h6>In accordance with the Interface Segregation Principle, the client should never be
+                    forced to use an unused connection, and clients should not be made to rely on unused methods.
+                    Clients should never be forced to use the visual interface they do not use, nor should they be
+                    forced to rely on methods they do not use.
+                    The goal of this policy is to eliminate unwanted code from Classes in order to minimize unforeseen
+                    problems when the Class is unable to perform an action. We have divided the activities into smaller
+                    groups so that the class can do only the actions they need.
+                </div>
+                <div class="col-6 col-sm-4"><img src="static\images\Solid5.jpg" class="img-fluid"></div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">DEPENDENCY INVERSION
+                    PRINCIPLE</h6>The goal of dependency conversion is a way to freely connect software units. Standard
+                    dependencies built from high-level, policy-setting modules to low-level, dependency modules are
+                    distorted when this approach is followed, providing high-level independent modules without
+                    specifying the use of low-level modules. In principle:<br>
+                    A. High-level modules should not depend on low-level modules. Both should depend on abstractions.
+                    <br>
+                    B. Abstractions should not depend on details (concrete implementation). Details should depend on
+                    abstractions.
+                    <br>
+                </div>
+                <div class="col-6 col-sm-4"><img src="static\images\Solid6.jpg" class="img-fluid"></div>
+            </div>
+        </div>
+        <br>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="text-center"><img src="static\images\DesignA.jpg" class="img-fluid"></div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-6 col-sm-6 contentPages"><h6 class="contentPagesHeader">DESIGN PATTERN</h6>The software
+                    design pattern is a common, reusable solution to a problem that often occurs in software design
+                    within a particular environment.
+                    It is not a finished design that can easily be translated into a source or machine code. It is a
+                    definition or metaphor for problem-solving that can be used in a variety of situations.
+                    <br><b>A</b> - Design patterns are advanced processes that an editor can use to overcome common
+                    challenges while
+                    designing an application or system.
+                    <br><b>B</b> - Design patterns provide answers to common issues, allowing the code to be manageable,
+                    expandable,
+                    and freely connected.
+                    <br><b>C</b> - Solutions that handle a particular type of problem are named after the developer.
+                    That's
+                    how it all
+                    started.
+                    <br><b>D</b> - The more one understands them, the easier it will be to solve all our problems.
+                    <br><b>E</b> - The book Gang of Four (1994) made it popular.
+                    <br>
+                </div>
+                <div class="col-6 col-sm-6"><img src="static\images\Design1.jpg" class="img-fluid"></div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 contentPages"><h6 class="contentPagesHeader">WHY DO WE NEED DESIGN
+                    PATTERNS?</h6>As Software Developers, we frequently assess our code based on criteria such as how
+                    clean, expressive, has a small memory footprint, and is quick. However, the most critical
+                    consideration, which we sometimes overlook, is that you should be able to simply adjust anything
+                    later. What you chose now might not be applicable tomorrow. And your code should be adaptable enough
+                    that changes are not prohibitively expensive. As a result, Design Patterns are best practices for
+                    covering such properties. The essence of Design Patterns, in my opinion, consists of the following
+                    six rules:
+                </div>
+                <div class="col-6 col-sm-6"><img src="static\images\Design2.jpg" class="img-fluid"></div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-4 contentPages"><h6 class="contentPagesHeader">They Are Proven Solutions</h6>
+                    Because Design Patterns are often used by developers, you may be confident that they function. Not
+                    only that, but you can be guaranteed that they were altered several times and that optimizations
+                    were most likely performed.
+                </div>
+                <div class="col-6 col-sm-4 contentPages"><h6 class="contentPagesHeader">They Are Easily Reusable</h6>
+                    Design Patterns describe a reusable solution that may be modified to solve a variety of specific
+                    situations. Because they aren't tied to a specific situation.
+                    Consider the Iterator Design Pattern, which is reusable across STL despite container and algorithm
+                    change. Iterators act as a glue between the container and the algorithm.
+                </div>
+                <div class="col-6 col-sm-4 contentPages"><h6 class="contentPagesHeader">They Are Expressive</h6>Design
+                    Patterns may elegantly describe a huge solution. The Visitor pattern, for example, is used to
+                    perform a new operation on a range/group of classes. As a result, the standard library followed a
+                    similar structure with a single function.
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-4 contentPages"><h6 class="contentPagesHeader">They Ease Communication</h6>
+                    Developers that are knowledgeable with Design Patterns can communicate more readily about potential
+                    solutions to a given challenge.
+                    If you're part of a team of developers, agree on Design Patterns with your colleagues since they can
+                    help you solve problems more effectively. You should also follow similar practices when it comes to
+                    software maintenance, as it makes maintenance operations faster and more efficient.
+                </div>
+                <div class="col-6 col-sm-4 contentPages"><h6 class="contentPagesHeader">They Prevent the Need for
+                    Refactoring Code</h6>
+                    When an application is created with Design Patterns in mind, you may not need to rewrite the code
+                    later since applying the relevant Design Pattern to a specific problem is already an optimum
+                    solution.
+                    If such solutions are later updated, they may be applied effortlessly by any excellent software
+                    developer without causing any complications.
+                </div>
+                <div class="col-6 col-sm-4 contentPages"><h6 class="contentPagesHeader">They Lower the Size of the
+                    Codebase</h6>Design Patterns use less code than alternative solutions since they are generally
+                    beautiful and optimal. This is not always the case, since many engineers create extra code to
+                    increase comprehension.
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">Types of Design Patterns</h6>
+                </div>
+                <br>
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">A. Creational Design
+                    Patterns</h6>
+                    &nbsp;&nbsp;
+                    <ol>
+                        <li>Factory</li>
+                        <br>
+                        <li>Builder</li>
+                        <br>
+                        <li>Prototype</li>
+                        <br>
+                        <li>Singleton</li>
+                        <br>
+                    </ol>
+                </div>
+                <br>
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">B. Structural Design
+                    Patterns</h6>
+                    &nbsp;&nbsp;
+                    <ol>
+                        <li>Adapter</li>
+                        <br>
+                        <li>Bridge</li>
+                        <br>
+                        <li>Composite</li>
+                        <br>
+                        <li>Decorator</li>
+                        <br>
+                        <li>Facade</li>
+                        <br>
+                        <li>Flyweight</li>
+                        <br>
+                        <li>Proxy</li>
+                        <br>
+                    </ol>
+                </div>
+                <br>
+                <div class="col-6 col-sm-8 contentPages"><h6 class="contentPagesHeader">C. Behavioural Design
+                    Patterns</h6>
+                    <li>Chain of responsibility</li>
+                    <br>
+                    <li>Command</li>
+                    <br>
+                    <li>Interpreter</li>
+                    <br>
+                    <li>Iterator</li>
+                    <br>
+                    <li>Mediator</li>
+                    <br>
+                    <li>Memento</li>
+                    <br>
+                    <li>Observer</li>
+                    <br>
+                    <li>State</li>
+                    <br>
+                    <li>Strategy</li>
+                    <br>
+                    <li>Template Method</li>
+                    <br>
+                    <li>Visitor</li>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+{% endblock %}
